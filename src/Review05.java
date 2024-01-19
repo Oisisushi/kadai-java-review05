@@ -26,7 +26,7 @@ public class Review05 {
             pstmt = con.prepareStatement("SELECT * FROM person WHERE id = ?");
 
         //Select文を実行して結果を格納/代入
-            System.out.print("検索するidを入力してください > ");
+            System.out.print("検索キーワードを入力してください > ");
             int input = setInt();
 
         //ResultSet
